@@ -125,6 +125,9 @@
     <h2>Inquire Now</h2>
     <p>Interested in a quote or booking? Fill out the form below and we'll get back to you as soon as possible.</p>
     <form action="https://formspree.io/f/xwkgqnyg" method="POST">
+      <!-- Redirect to thank-you page after submission -->
+    <input type="hidden" name="_next" value="https://yourdomain.com/thank-you.html">
+
       <input type="text" name="First Name" placeholder="First Name" required />
       <input type="text" name="Last Name" placeholder="Last Name" required />
       <input type="text" name="Address" placeholder="Address" required />
@@ -136,7 +139,7 @@
   </section>
 
   <footer>
-    <p>&copy; 2025 Luno Surface Restoration. All rights reserved.</p>
+    <p>&copy; 2025 Luno Surface Restoration</p>
   </footer>
 </body>
 </html>
