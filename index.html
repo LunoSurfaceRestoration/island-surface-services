@@ -3,21 +3,22 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Island Surface Services | Concrete Sealing & Power Washing</title>
+  <title>Luno Surface Restoration | Residential Surface Cleaning & Sealing</title>
   <style>
     body {
       margin: 0;
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       color: #2e2e2e;
+      background-color: #fdfdfd;
     }
     header {
-      background-color: #003B36;
+      background-color: #1e1e1e;
       color: #fff;
       padding: 2rem;
       text-align: center;
     }
     nav {
-      background-color: #026873;
+      background-color: #2d3e50;
       padding: 1rem;
       display: flex;
       justify-content: center;
@@ -40,13 +41,33 @@
     }
     .service {
       flex: 1 1 45%;
-      background: #f4f4f4;
+      background: #ffffff;
       padding: 2rem;
-      border-radius: 10px;
-      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+      border-radius: 12px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    }
+    form input, form textarea {
+      width: 100%;
+      padding: 0.75rem;
+      margin: 0.5rem 0;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+    }
+    form button {
+      background-color: #2d3e50;
+      color: white;
+      padding: 0.75rem 1.5rem;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+    iframe {
+      width: 100%;
+      height: 400px;
+      border: none;
     }
     footer {
-      background-color: #003B36;
+      background-color: #1e1e1e;
       color: white;
       text-align: center;
       padding: 1.5rem 0;
@@ -55,20 +76,21 @@
 </head>
 <body>
   <header>
-    <h1>Island Surface Services</h1>
-    <p>Professional Concrete Sealing & Commercial-Grade Power Washing – Serving Victoria, BC</p>
+    <h1>Luno Surface Restoration</h1>
+    <p>Professional Residential Surface Cleaning & Sealing – Serving Victoria, BC</p>
   </header>
 
   <nav>
     <a href="#about">About</a>
     <a href="#services">Services</a>
-    <a href="#contact">Contact</a>
+    <a href="#calendar">Calendar</a>
+    <a href="#inquire">Inquire</a>
   </nav>
 
   <section id="about">
-    <h2>Why Choose Us?</h2>
+    <h2>About Us</h2>
     <p>
-      Island Surface Services delivers concrete sealing and commercial-grade power washing solutions. We specialize in surfaces for residential properties throughout Victoria and southern Vancouver Island.
+      Luno Surface Restoration is a small, locally owned business dedicated to high-quality residential surface care. We specialize in power washing, concrete sealing, asphalt crack sealing, and jet sealing to restore and protect your driveways, patios, and walkways. Based in Victoria, BC, we take pride in helping our community keep their homes clean, protected, and looking great.
     </p>
   </section>
 
@@ -77,31 +99,45 @@
     <div class="services">
       <div class="service">
         <h3>Power Washing</h3>
-        <p>
-          Our pressure washers remove grime, oil, mold, and debris from sidewalks, driveways, parking lots, building exteriors, and more.
-        </p>
+        <p>High-pressure cleaning to remove dirt, oil, moss, and grime from concrete and paved surfaces.</p>
       </div>
       <div class="service">
         <h3>Concrete Sealing</h3>
-        <p>
-          We apply concrete sealants that protect and preserve concrete against weathering, staining, and cracking—ideal for high-traffic commercial spaces.
-        </p>
+        <p>Protective gloss sealing to shield your concrete from weathering, stains, and cracking.</p>
+      </div>
+      <div class="service">
+        <h3>Asphalt Crack Sealing</h3>
+        <p>Sealing cracks to prevent water damage and extend the life of your asphalt driveway.</p>
+      </div>
+      <div class="service">
+        <h3>Jet Sealing</h3>
+        <p>Durable and flexible sealing method that enhances appearance and resistance to wear.</p>
       </div>
     </div>
   </section>
 
-  <section id="contact">
-    <h2>Contact Us</h2>
-    <p>Get a free quote or schedule a site visit:</p>
-    <ul>
-      <li><strong>Email:</strong> info@islandsurfaceservices.ca</li>
-      <li><strong>Phone:</strong> (778) 700-2835</li>
-      <li><strong>Location:</strong> Victoria, BC</li>
-    </ul>
+  <section id="calendar">
+    <h2>Service Availability Calendar</h2>
+    <iframe src="https://calendar.google.com/calendar/embed?src=lunosurfacerestoration%40gmail.com&ctz=America%2FVancouver"></iframe>
+  </section>
+
+  <section id="inquire">
+    <h2>Inquire Now</h2>
+    <p>Interested in a quote or booking? Fill out the form below and we'll get back to you as soon as possible.</p>
+    <form action="https://formspree.io/f/xwkgqnyg" method="POST">
+      <input type="text" name="First Name" placeholder="First Name" required />
+      <input type="text" name="Last Name" placeholder="Last Name" required />
+      <input type="text" name="Address" placeholder="Address" required />
+      <input type="email" name="Email" placeholder="Email" />
+      <input type="tel" name="Phone" placeholder="Phone Number" />
+      <textarea name="Message" placeholder="Tell us what you need..." rows="5"></textarea>
+      <button type="submit">Submit Inquiry</button>
+    </form>
   </section>
 
   <footer>
-    <p>&copy; 2025 Island Surface Services.</p>
+    <p>&copy; 2025 Luno Surface Restoration. All rights reserved.</p>
   </footer>
 </body>
 </html>
+
